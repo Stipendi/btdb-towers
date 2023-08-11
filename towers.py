@@ -43,7 +43,7 @@ def parse_upgrade(upgrade, prices):
 
 
 def main():
-    prices = read_file("tower_prices.txt")
+    prices = read_file("tower_prices_6.18.txt")
     if prices == None:
         return 0
     while True:
