@@ -1,16 +1,20 @@
 ## BTD Battles Tower Price Calculator
 
-Have you ever wanted to quickly figure out the price of your defensive setup? Are you frustrated because the Wiki contains outdated information? Well, this tool might help you.
+BTD Battles is a tower defense strategy game developed by Ninja Kiwi.
+
+Have you ever wanted to quickly figure out the price of your defensive setup? Are you frustrated because the wiki contains outdated information? Well, this tool might help you.
 
 ### How to use
 
 1. Clone/download the repository.
 2. Run the app by typing `python towers.py` into your terminal in the root directory.
 
-### The prices are outdated!
+### Help! The prices are outdated!
 
 You can change the prices by modifying the tower_prices_x.xx file. The file has the following format:
+
 `tower name: base_cost 1/0 2/0 3/0 4/0 0/1 0/2 0/3 0/4`
+
 If you do update the prices, please fork the repository and make a pull request. For more details on how to contribute, see the "How to Contribute" section.
 
 ### How to Contribute
