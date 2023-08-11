@@ -42,6 +42,11 @@ def parse_upgrade(upgrade, prices):
     return total
 
 
+def parse_towers(text):
+    parts = text.split("+")
+    return [x.strip() for x in parts]
+
+
 def main():
     prices = read_file("tower_prices_6.18.txt")
     if prices == None:
